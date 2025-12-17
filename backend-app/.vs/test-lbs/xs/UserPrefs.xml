@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{FC3C6D80-1B77-40AE-BD08-32EEB9620170}|http">
+  <MonoDevelop.Ide.ItemProperties.test-lbs PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test-lbs/Services/PostService.cs">
+    <Files>
+      <File FileName="test-lbs/Controllers/PostController.cs" Line="42" Column="37" />
+      <File FileName="test-lbs/Services/PostService.cs" Line="51" Column="1" />
+      <File FileName="test-lbs/Interface/IRepository.cs" Line="7" Column="33" />
+      <File FileName="test-lbs/DB/ApplicationDbContext.cs" Line="4" Column="1" />
+      <File FileName="test-lbs/Interface/IPostService.cs" Line="15" Column="1" />
+      <File FileName="test-lbs/Program.cs" Line="52" Column="27" />
+      <File FileName="test-lbs/dto/postDto.cs" Line="18" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="test-lbs" expanded="True">
+            <Node name="test-lbs" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="DB" expanded="True" />
+              <Node name="dto" expanded="True" />
+              <Node name="Interface" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Repositories" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="PostService.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
