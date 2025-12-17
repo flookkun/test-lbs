@@ -1,0 +1,39 @@
+<div class="container">
+  <div class="content-card">
+    <div class="post-author">
+      <div class="avatar blue">C</div>
+      <div class="info">
+        <strong>Change can</strong>
+        <p>16 October 2021 16:00</p>
+      </div>
+    </div>
+
+    <img
+      src="https://cdn.britannica.com/86/166986-050-4CEFE5DE/cute-kitten-and-puppy-outdoors-in-grass.jpg"
+      class="main-img"
+      alt="Dog and cat"
+    />
+
+    <div class="comment-input-section">
+      <div class="avatar light-blue">B</div>
+      <input
+        type="text"
+        [(ngModel)]="newComment"
+        (keyup.enter)="submitComment()"
+        [disabled]="(loading.isLoading$ | async) === true"
+        placeholder="Comment"
+        class="comment-box"
+      />
+    </div>
+
+    <div class="comment-list">
+      <div *ngFor="let item of comments" class="comment-item">
+        <div class="avatar light-blue">{{ item.nameUser.charAt(0).toUpperCase() }}</div>
+        <div class="comment-text">
+          <strong>{{ item.nameUser }}</strong>
+          <p>{{ item.comment.comment }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
